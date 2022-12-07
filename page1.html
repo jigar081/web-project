@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>leave application</title>
+</head>
+
+<body>
+
+    <div class="top" style=" background:skyblue;padding: 20px;
+    border-radius: 30px;margin:14px">
+
+        <head>APPLICATION</head>
+        <h1 style="text-align:center">LEAVE APPLICATION</h1>
+    </div>
+
+    <div style="background: antiquewhite;padding: 40px;
+    border-radius: 24px;margin:14px;">
+        <big style="font-weight: bold">Date of leave</big><br>
+        <pre>
+    <label for="From" style="font-weight: bold">From:</label><input type="date" id="From" name="From">  <label for="To">To:</label><input type="date" id="To" name="To">     
+    </pre>
+        <label for="freeform" style="text-align:center;font-weight: bold " ;>Reason for leave:</label>
+        <br>
+        <textarea id="freeform" name="freeform" rows="8" cols="80" style="background: lightgoldenrodyellow">specify reason in 50 words... 
+        </textarea>
+
+            <div class="form-group md-group show-label">
+                <label style="text-align:center;font-weight: bold">Emergency contact number</label>
+                <input class="form-control" type="tel" id="phone" placeholder="e.g. +91 702 123 4567" value="+91 ">
+            
+            </div>
+        <br>
+        <input type="submit" value="submit" style="background:rgb(196, 204, 197)">
+    </div>    
+
+</body>
+
+</html>
